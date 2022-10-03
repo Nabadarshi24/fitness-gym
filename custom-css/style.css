@@ -1,0 +1,1709 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img-overlay{
+    background-color: rgba(0, 0, 0, 0.408);
+    height: 100%;
+}
+
+/* navbar-region design starts here */
+header{
+    padding: 0 40px;
+}
+
+.nav-logo img{
+    width: 65px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler .hamburger-icon{
+    color: #000000;
+}
+.navbar-toggler .hamburger-icon:hover{
+    color: #ffc63d;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: unset;
+}
+
+.offcanvas-style{
+    max-width: 250px;
+}
+
+/* media-query starts here */
+@media screen and (min-width: 576px) {
+    header{
+        padding: unset;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container{
+        max-width: 1140px;
+    }
+}
+
+/* ends-here */
+
+/* end-region */
+
+/* bannner-region starts here */
+
+.banner-bg{
+    background: url(./../images/banner_bg.jpg) no-repeat 42.47% 50%;
+    background-size: cover;
+    height: 870px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-logo img{
+    width: 140px;
+    margin-top: 55px;
+}
+
+.banner-bg h1{
+    font-size: 2rem;
+    width: 317px;
+    max-width: 100%;
+}
+
+.banner-bg p{
+    font-size: 1.2rem;
+    margin-top: 35px;
+}
+
+.banner-bg a{
+    text-decoration: none;
+    display: block;
+    /* font-size: 1rem; */
+}
+
+.img-btn{
+    width: 250px;
+    border: 2px solid #ffc63d;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 35px;
+    background-color: #ffc63d;
+}
+
+.img-btn:hover{
+    background-color: azure;
+    border-color: azure;
+}
+.class-btn{
+    width: 250px;
+    border: 2px solid #ffc63d;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    background-color: transparent;
+}
+.class-btn:hover{
+    background-color: azure;
+    color: grey;
+    border-color: transparent;
+}
+
+.banner-bg span{
+    display: block;
+    color: white;
+    font-size: 1.08rem;
+    font-weight: 600;
+    margin-top: 35px;
+}
+.banner-bg span a{
+    display: inline-block;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.banner-bg span a:hover{
+    border-bottom: 1px solid white;
+}
+.download-image img{
+    width: 64px;
+}
+
+/* media-query starts here */
+
+@media screen and (min-width: 576px) {
+
+    .banner-logo img{
+        margin-top: 60px;
+    }
+    .banner-bg h1{
+        font-size: 2.75rem;
+        font-weight: bold;
+        width: unset;
+    }
+
+    .banner-bg p{
+        margin-top: 40px;
+    }
+
+    .banner-bg a{
+        display: inline-block;
+    }
+
+    .banner-bg span{
+        margin-top: 70px;
+    }
+
+    .class-btn{
+        margin-left: 10px;
+    }
+
+    .download-image{
+        margin-top: 110px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner-bg h1{
+        font-size: 3.75rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .banner-bg h1{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .banner-logo img {
+        margin-top: 90px;
+    }
+
+    .banner-bg span {
+        margin-top: 45px;
+    }
+
+    .download-image{
+        margin-top: 60px !important;
+    }
+}
+
+/* ends here */
+/* end-regions */
+
+/* Service-region design starts here */
+
+.services{
+    padding: 0 40px;
+}
+
+.services h1{
+    max-width: 100%;
+    width: 350px;
+    margin: 0 auto;
+}
+.title{
+    height: 60px;
+}
+.services .title h5{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.card-details{
+    margin-top: 29px;
+}
+
+.card-details p{
+    margin: 0 auto;
+    font-size: 16px;
+    width: 316px;
+    max-width: 100%;
+}
+
+.row-style{
+    margin-top: 100px;
+}
+
+.my-style{
+    position: relative;
+    background-color: #ffc63d;
+    padding: 95px 20px 30px;
+    margin-bottom: 60px;
+    z-index: 1;
+}
+
+.header img{
+    position: absolute;
+    background-color: antiquewhite;
+    width: 98px;
+    border: 7px solid #ffc63d;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 20%);
+    padding: 16px;
+    left: calc(50% - 49px);
+    top: -35px;
+    z-index: 2;
+}
+
+.footer-icon img{
+    width: 35px;
+    margin-top: 35px;
+}
+
+/* media-qiery design starts here */
+
+@media screen and (min-width: 576px) {
+    .services h1{
+        width: 386px;
+        font-size: 2.9rem;
+    }
+    .card-details p{
+        width: unset;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .services h1{
+        width: 100%;
+    }
+
+    .row-style{
+        margin-top: 50px;
+    }
+
+    .my-style{
+        margin-bottom: unset;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .services h1{
+        font-size: 3.2rem;
+    }
+    .my-style{
+        padding: 95px 11px 30px;
+    }
+    .card-details{
+        margin-top: 17px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card-details{
+        margin-top: -5px;
+    }
+    .footer-icon img {
+        margin-top: 27px;
+    }
+}
+
+/* ends-here */
+
+/* end-region */
+
+/* banner1-region design starts here */
+
+.banner1-bg{
+    background: url(./../images/banner_2.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 550px;
+    margin-top: 75px;
+}
+
+.banner1-wrapper{
+    padding-top: 135px;
+}
+
+.banner1-bg h1{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 317px;
+}
+
+.banner1-bg span{
+    display: block;
+    color: white;
+    font-size: 1.08rem;
+    font-weight: 600;
+    margin-top: 45px;
+}
+.banner1-bg span a{
+    display: inline-block;
+    color: white;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+}
+
+.banner1-bg span a:hover{
+    border-bottom: 1px solid white;
+}
+
+.tour-booking-btn{
+    border: none;
+    background-color: #ffc63d;
+    width: 300px;
+    font-size: 1.2rem;
+    padding: 21px 0;
+}
+
+.tour-booking-btn:hover{
+    background-color: #c29224;
+}
+
+/* media-query design starts here */
+
+@media screen and (min-width: 576px) {
+    .banner1-bg h1{
+        font-size: 3rem;
+        width: 386px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner1-bg h1{
+        font-size: 3rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .banner1-bg{
+        height: 620px;
+        margin-top: 75px;
+    }
+
+    .banner1-wrapper{
+        padding-top: 170px;
+    }
+
+    .banner1-bg h1{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .banner1-bg{
+        height: 670px;
+        margin-top: 75px;
+    }
+    .banner1-wrapper{
+        padding-top: 135px;
+    }
+}
+/* ends-here */
+
+/* end-region */
+
+/* contact us-region design starts here */
+
+.learn-contact-section{
+    padding: 0 40px;
+}
+
+.image-div{
+    position: relative;
+    overflow-y: hidden;
+    width: 100%;
+    height: 316px;
+}
+
+.learn-more .image-div img{
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    height: auto;
+}
+
+.col-margin{
+    margin-top: 75px;
+}
+
+.col-margin p{
+    font-size: 1.1rem;
+    width: 381px;
+    max-width: 100%;
+    margin-top: 25px;
+}
+
+.learn-more-btn{
+    width: 196px;
+    padding: 17px 0;
+    background-color: #ffc63d;
+    border: none;
+    font-size: 1.09rem;
+}
+
+.learn-more-btn:hover{
+    background-color: black;
+    color: white;
+}
+.contact-btn{
+    width: 194px;
+    padding: 17px 0;
+    border: 2px solid #ffc63d;
+    background-color: transparent;
+}
+
+.contact-btn:hover{
+    border-color: transparent;
+    background-color: black;
+    color: white;
+}
+
+.contact-us .col-margin span{
+    display: block;
+    font-size: 1.08rem;
+    font-weight: 600;
+    margin-top: 37.5px;
+}
+.contact-us .col-margin span a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.col-margin1{
+    margin-top: 37.5px;
+}
+
+.contact-us .col-margin1 .image-div{
+    position: relative;
+    overflow-y: hidden;
+    width: 100%;
+    height: 350px;
+}
+
+.contact-us .col-margin1 .image-div img{
+    position: absolute;
+    /* top: 64%; */
+    top: 0;
+    /* -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+    width: 100%;
+    height: auto;
+}
+
+/* media-query design starts here */
+
+@media screen and (min-width: 576px) {
+    .col-margin1{
+        margin-top: 70px;
+    }
+
+    .contact-us .col-margin1 .image-div{
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .learn-more .image-div{
+        height: 424px;
+    }
+
+    .learn-more .image-div img{
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 100%;
+        height: auto;
+    }
+
+    .col-margin p{
+        width: 100%;
+    }
+    .contact-us .col-margin p{
+        width: 293px;
+    }
+
+    .contact-btn{
+        width: 194px;
+        padding: 17px 0;
+        border: none;
+        background-color: white;
+    }
+    
+    .contact-btn:hover{
+        border-color: unset;
+        background-color: black;
+        color: white;
+    }
+
+    .contact-us .col-margin1 .image-div{
+        height: 400px;
+    }
+    .contact-us .col-margin1 .image-div img{
+        height: inherit;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+    .learn-contact-section{
+        margin-top: 85px;
+    }
+
+    .contact-us .col-margin p {
+        width: 396px;
+    }
+
+    .col-margin{
+        margin-top: 0;
+    }
+    .col-margin1{
+        margin-top: 0;
+    }
+    
+    .learn-more .image-div{
+        position: unset;
+        overflow-y: unset;
+        width: unset;
+        height: unset;
+    }
+
+    .learn-more .image-div img{
+        position: unset;
+        top: unset;
+        -ms-transform: translateY(-50%);
+        transform: unset;
+        width: 484px;
+        height: 422px;
+        object-fit: cover;
+    }
+
+    .contact-us{
+        margin-top: 50px;
+    }
+
+    .contact-us h3{
+        font-weight: 600 !important;
+        font-size: 30px !important;
+    }
+
+    .contact-us .col-margin1 .image-div{
+        position: unset;
+        overflow-y: unset;
+        width: unset;
+        height: unset;
+    }
+
+    .contact-us .col-margin1 .image-div img{
+        position: unset;
+        top: unset;
+        width: 400px;
+        height: 450px;
+        object-fit: cover;
+    }
+    .xl-p{
+        padding: 102px 54px 0px 0px !important;
+    }
+    .xl-ps {
+        padding-left: 60px !important;
+        padding-top: 130px !important;
+    }
+    .xl-ps-img{
+        padding-left: 0px !important;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .learn-more .image-div{
+        position: unset;
+        overflow-y: unset;
+        width: unset;
+        height: unset;
+    }
+
+    .learn-more .image-div img{
+        position: unset;
+        top: unset;
+        -ms-transform: translateY(-50%);
+        transform: unset;
+        width: 630px;
+        height: 510px;
+        object-fit: cover;
+    }
+
+    .contact-us h3{
+        font-weight: 600 !important;
+        font-size: 30px !important;
+    } 
+
+    .contact-us .col-margin1 .image-div{
+        position: unset;
+        overflow-y: unset;
+        width: unset;
+        height: unset;
+    }
+
+    .contact-us .col-margin1 .image-div img{
+        position: unset;
+        top: unset;
+        width: 420px;
+        height: 490px;
+        object-fit: cover;
+    }
+    
+    .col-margin1{
+        margin-top: 0px;
+    }
+
+    .contact-us{
+        margin-top: -50px;
+    }
+
+    .contact-us .col-margin p {
+        width: 454px;
+    }
+
+    .xl-p{
+        padding: 110px 99px 0 54px !important;
+    }
+
+    .xl-ps {
+        padding-left: 125px !important;
+        padding-top: 127px !important;
+    }
+    .xl-ps-img{
+        padding-left: 54px !important;
+    }
+}
+/* ends-here */
+
+/* end-region */
+
+
+/* training-benefits region design starts here */
+
+.sports-training{
+    background-color: #ffc63d;
+    padding: 300px 40px;
+    margin-top: -170px;
+}
+.sports-training h1{
+    max-width: 100%;
+    width: 300px;
+    font-size: 1.95rem;
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+    margin-bottom: 22px;
+}
+
+.training-package{
+    margin-top: 22px;
+}
+
+.card-header h3{
+    font-size: 20px;
+}
+
+.card-desc p{
+    max-width: 100%;
+    width: 328px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.card-footer{
+    margin-top: 44px;
+}
+
+.card-footer a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 0.7px;
+    font-size: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.card-footer a:hover{
+    color: #ffc63d;
+    border-color: #ffc63d;
+    font-weight: 700;
+}
+
+    /* media-query design starts here */
+
+@media screen and (min-width: 576px) {
+    .sports-training h1{
+        width: 386px;
+        font-size: 2.95rem;
+    }
+
+    .card-desc p{
+        width: unset;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sports-training{
+        margin-top: -260px;
+        padding: 370px 0;
+    }
+
+    .sports-training h1{
+        width: 100%;
+        font-size: 2.95rem;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .sports-training{
+        margin-top: -149px;
+        padding-top: 297px;
+        padding-bottom: 370px;
+    }
+    .training-package {
+        padding: 30px 10px !important;
+    }
+    .sports-training h1{
+        margin-bottom: 25px;
+        font-size: 3.1rem;
+    }
+    .card-footer {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .sports-training{
+        margin-top: -199px;
+        padding: 365px 0;
+    }
+    .training-package {
+        padding: 45px 12px !important;
+    }
+    .card-header h3 {
+        font-size: 24px;
+    }
+}
+
+    /* ends-here */
+
+/* end-region */
+
+/* workout-gallery region design starts here */
+
+.workout-gallery{
+    padding: 0 40px;
+    margin-top: -200px;
+}
+
+.workout-gallery .picture{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+}
+.workout-gallery .gallery-img1{
+    background-image: url(./../images/workout_img3.jpg);
+}
+
+.workout-gallery .gallery-img2{
+    background-image: url(./../images/workout_img4.jpg);
+}
+.workout-gallery .gallery-img3{
+    background-image: url(./../images/workout_img5.jpg);
+}
+.workout-gallery .gallery-img4{
+    background-image: url(./../images/workout_img6.jpg);
+}
+
+    /* media-query design starts here */
+
+@media screen and (min-width: 576px) {
+    .workout-gallery{
+        padding: unset;
+    }
+    .workout-gallery .picture{
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .workout-gallery{
+        margin-top: -290px;
+    }
+    .col-m{
+        margin-bottom: 0 !important;
+    }
+    .col-p{
+        padding: 0 12px !important;
+    }
+    .workout-gallery .picture{
+        height: 500px;
+    }
+    .md-p {
+        margin-top: 120px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .workout-gallery{
+        margin-top: -220px;
+    }
+    .lg-p{
+        margin-top: 90px !important;
+    }
+
+    .workout-gallery .picture{
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .workout-gallery{
+        margin-top: -250px;
+    }
+    
+    .workout-gallery .picture{
+        height: 350px;
+    }
+}
+
+    /* ends-here */
+
+/* end-region */
+
+/* booking-submit region design starts here */
+
+.booking-submit{
+    margin-top: 60px;
+    padding: 0 40px;
+}
+
+.booking-submit h3{
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.booking-submit p{
+    margin-bottom: 26px;
+}
+
+.form-btn input{
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: unset;
+    background-color: #f2f2f2;
+}
+
+.form-btn a{
+    display: block;
+    text-decoration: none;
+}
+
+.submit-btn{
+    width: 100%;
+    border: none;
+    background-color: #ffc63d;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.submit-btn:hover{
+    background-color: black;
+    font-weight: 700;
+    color: white;
+}
+
+.booking{
+    margin-top: 52px;
+}
+
+.booking .call-link .tel-icon{
+    color: #ffc63d;
+    font-size: 21px;
+}
+
+.booking-submit .booking h1{
+    width: 300px;
+    max-width: 100%;
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+}
+
+.booking-submit .booking span{
+    font-size: 1.1rem;
+    margin-bottom: 26px;
+}
+
+.booking-submit .booking span a{
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    border-bottom: 1px solid black;
+}
+
+.booking-submit .booking span a:hover{
+    border-color: rgb(97, 97, 97);
+}
+.booking-submit .booking .call-link a{
+    text-decoration: none;
+    color: rgb(38, 37, 37);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.booking-submit .booking .call-link a:hover{
+    color: #ffc63d;
+}
+
+    /* media-query design starts here */
+
+@media screen and (min-width: 576px) {
+    .booking-submit .booking h1{
+        width: 100%;
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .form-btn{
+        position: relative;
+    }
+    .form-btn a{
+        display: inline;
+        text-decoration: none;
+    }
+    
+    .submit-btn{
+        position: absolute;
+        right: 0;
+        width: unset;
+        padding: 10px 30px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+
+    .booking-submit .booking h1{
+        font-size: 3.8rem;
+    }
+
+    .booking{
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .booking {
+        margin-top: 0;
+    }
+}
+    /* ends-here */
+
+/* end-region */
+
+/* membership-region design starts here */
+
+.membership{
+    background: url(./../images/banner_3.jpg) no-repeat center;
+    background-size: cover;
+    height: 530px;
+    margin-top: 85px;
+}
+
+.membership-wrapper{
+    padding: 73px 20px;
+}
+
+.membership h1{
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+
+.membership p{
+    font-weight: 400;
+    font-size: 1.094rem;
+}
+
+    /* media-query design starts here */
+
+@media screen and (min-width: 576px) {
+    .membership{
+        height: 550px;
+    }
+
+    .membership h1{
+        font-size: 2.9rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .membership p{
+        padding-top: 11px;
+        max-width: 100%;
+        width: 461px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .membership-wrapper{
+        padding: 95px 20px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .membership{
+        background: url(./../images/banner_3.jpg) no-repeat center 0%;
+        height: 500px;
+        background-size: cover;
+    }
+}
+
+    /* ends-here */
+
+/* end-region */
+
+/* health-class region design starts here */
+
+.health-class{
+    padding: 0 40px;
+    margin-top: -255px;
+}
+
+.health-class .health-class-card {
+    border: 2px solid #ffc63d;
+    padding: 30px 0;
+    background-color: #ffffff;
+    margin-bottom: 48px;
+}
+.health-class .health-class-card .header-title h3{
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+.health-class .health-class-card .desc p{
+    font-size: 1.096rem;
+    margin-bottom: 45px;
+}
+
+.footer-btn a button{
+    background-color: #ffc63d;
+    border: 2px solid #ffc63d;
+    padding: 17px 50px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.footer-btn a button:hover{
+    background-color: transparent;
+    border: 2px solid #808080;
+}
+
+.health-class span a{
+    color: #383737;
+    border-bottom: 1px solid #383737;
+}
+
+.health-class span a:hover{
+    border-bottom: none;
+}
+
+    /* media-query design starts here */
+
+@media screen and (min-width: 576px) {
+    .health-class{
+        padding: unset;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .health-class .health-class-card {
+        margin-bottom: unset;
+    }
+
+    .health-class span{
+        display: block;
+        margin-top: 48px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .health-class{
+        margin-top: -300px;
+    }
+}
+
+    /* ends-here */
+
+/* end region */
+
+/* Amenities-region design starts here */
+
+.amenities{
+    padding: 0 40px;
+}
+
+.amenities .amenities-gallery h2{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.amenities .amenities-gallery p{
+    font-size: 1.096rem;
+}
+
+.amenities .amenities-gallery .amenities-bg{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.amenities .amenities-gallery .pool{
+    background-image: url(./../images/card_bg1.jpg);
+}
+
+.amenities .amenities-gallery .studios{
+    background-image: url(./../images/card_bg2.jpg);
+}
+
+.amenities .amenities-gallery .lounge{
+    background-image: url(./../images/card_bg3.jpg);
+}
+
+.amenities .amenities-gallery .sauna{
+    background-image: url(./../images/card_bg4.jpg);
+}
+
+.amenities .amenities-gallery .outdoor{
+    background-image: url(./../images/card_bg5.jpg);
+}
+
+.amenities .amenities-gallery .basketball{
+    background-image: url(./../images/card_bg6.jpg);
+}
+
+.amenities-bg button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+    background-color: #ffc63d;
+    padding: 15px 50px;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    /* white-space: nowrap; */
+    width: max-content;
+}
+
+.amenities-bg button:hover{
+    background-color: #f2f2f2;
+}
+
+.amenities-gallery span{
+    display: block;
+    margin-top: 48px;
+}
+
+.amenities-gallery span a{
+    text-decoration: none;
+    color: #383737;
+    border-bottom: 1px solid black;
+}
+
+.amenities-gallery span a:hover{
+    border-color: #6b6868;
+}
+
+    /* media-query design starts here */
+
+@media screen and (min-width: 576px) {
+    .amenities{
+        padding: unset;
+    }
+
+    .amenities .amenities-gallery h2{
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+    .amenities .amenities-gallery .amenities-bg{
+        height: 350px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    .amenities .amenities-gallery .amenities-bg{
+        height: 280px;
+    }
+
+    .amenities .amenities-gallery p{
+        width: 700px;
+        max-width: 100%;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .amenities .amenities-gallery .amenities-bg {
+        height: 372px;
+    }
+}
+    /* ends-here */
+
+
+/* end-region */
+
+/* follow-us region design starts here */
+.follow-us{
+    width: 100%;
+    height: 425px;
+    margin-top: 58px;
+}
+
+.follow-us-bg{
+    background: url(./../images/banner_bg1.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: inherit;
+}
+
+.follow-us-bg img{
+    width: 68px;
+    margin-top: 56px;
+}
+
+.follow-us-bg h1{
+    font-size: 2.5rem;
+    width: 315px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.follow-us-bg p a{
+    text-decoration: none;
+    color: #ffc63d;
+}
+
+.follow-us-bg p a:hover{
+    color: white;
+}
+.follow-us-bg span{
+    font-size: 1.08rem;
+}
+
+.follow-us-bg span a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.follow-us-bg span a:hover{
+    border-color: #ffc63d;
+}
+
+    /* media-qiery design starts here */
+
+@media screen and (min-width: 576px) {
+    .follow-us{
+        height: 550px;
+    }
+
+    .follow-us-bg img{
+        width: 95px;
+        margin-top: 70px;
+    }
+
+    .follow-us-bg h1{
+        width: 100%;
+    }
+
+    .follow-us-bg p{
+        font-size: 1.45rem !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .follow-us{
+        height: 500px;
+    }
+
+    .follow-us-bg img{
+        margin-top: 88px;
+    }
+
+    .follow-us-bg h1{
+        font-size: 3.1rem;
+    }
+
+    .follow-us-bg p{
+        font-size: 1.80rem !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .follow-us{
+        height: 560px;
+    }
+
+    .follow-us-bg img{
+        margin-top: 115px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .follow-us{
+        height: 600px;
+    }
+
+    .follow-us-bg{
+        /* background: url(./../images/banner_bg1.jpg) no-repeat center 0%; */
+        background-position: center 0;
+    }
+
+    .follow-us-bg img{
+        margin-top: 130px;
+    }
+}
+
+    /* ends-here */
+
+/* end-region */
+
+
+/* trainers-region design starts here */
+
+.trainers{
+    padding: 0 40px;
+    /* margin-top: 50px; */
+}
+
+.trainer-card .trainer-card-title h1{
+    letter-spacing: 1px;
+    margin-top: 35px;
+}
+
+.trainer-card .trainer-card-details p{
+    max-width: 100%;
+    width: 305px;
+    line-height: 32px;
+    font-size: 1.1rem;
+}
+
+.trainer-card span{
+    display: block;
+    font-size: 1.05rem;
+}
+
+.trainer-card span a{
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1.5px solid #ffc63d;
+    color: #383737;
+}
+
+.trainer-card span a:hover{
+    border-color: #383737;
+}
+
+.trainer-card .ft-btn button{
+    background-color: #ffc63d;
+    border: none;
+    padding: 17px 50px;
+    font-size: 1.09rem;
+    font-weight: 500;
+}
+
+.trainer-card .ft-btn button:hover{
+    background-color: #000000;
+    color: white;
+}
+
+.trainers-gallery {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.trainer-bg1{
+    background-image: url(./../images/trainer_1.jpg);
+}
+
+.trainer-bg2{
+    background-image: url(./../images/Trainer_2.jpg);
+}
+
+.trainer-bg3{
+    background-image: url(./../images/trainer_3.jpg);
+}
+
+.trainer-bg4{
+    background-image: url(./../images/trainer_4.jpg);
+}
+
+    /* media-query design starts here */
+
+@media screen and (min-width: 576px) {
+    .trainers{
+        padding: unset;
+    }
+
+    .trainer-card .trainer-card-title h1{
+        font-size: 3rem;
+    }
+
+    .trainer-card .trainer-card-details p{
+        width: 100%;
+        font-size: 1.15rem;
+    }
+
+    .trainers-gallery {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .trainer-card{
+        padding: 0 30px;
+    }
+    .trainers-gallery {
+        height: 340px;
+    }
+    .trainer-card-details{
+        margin-top: 40px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .trainers-gallery {
+        height: 270px;
+    }
+}
+    /* ends-here */
+
+/* end-region */
+
+/* personal training design starts here */
+
+.personal-training{
+    width: 100%;
+    height: 425px;
+    margin-top: 58px;
+}
+
+.personal-training-bg{
+    background: url(./../images/banner_bg3.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: inherit;
+}
+
+.personal-training-bg img{
+    width: 68px;
+    margin-top: 56px;
+}
+
+.personal-training-bg h1{
+    font-size: 2.5rem;
+    width: 315px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.personal-training-bg p{
+    max-width: 100%;
+    width: 335px;
+    margin: 0 auto;
+}
+
+.personal-training-bg span{
+    font-size: 1.08rem;
+}
+
+.personal-training-bg span a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.personal-training-bg span a:hover{
+    border-color: #ffc63d;
+}
+
+    /* media-query design starts here */
+
+@media screen and (min-width: 576px) {
+    .personal-training{
+        height: 450px;
+        margin-top: 58px;
+    }
+
+    .personal-training-bg img{
+        width: 95px;
+        margin-top: 70px;
+    }
+
+    .personal-training-bg h1{
+        font-size: 2.5rem;
+        width: 100%;
+    }
+
+    .personal-training-bg p{
+        width: 100%;
+        font-size: 1.45rem !important;
+        font-weight: 600 !important;
+    }  
+    
+}
+
+@media screen and (min-width: 768px) {
+    .personal-training-bg h1{
+        font-size: 3.1rem;
+    }
+
+    .personal-training-bg p{
+        font-size: 1.80rem !important;
+    }  
+}
+
+@media screen and (min-width: 992px) {
+    .personal-training{
+        height: 550px;
+    }
+
+    .personal-training-bg img{
+        margin-top: 118px;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    .personal-training{
+        height: 650px;
+    }
+    .personal-training-bg{
+        background-position: center 41%;
+    }
+    .personal-training-bg img{
+        margin-top: 168px;
+    }
+    
+}
+
+    /* ends-here */
+
+/* end-region */
+
+/* contact-us region design starts here */
+
+.contact-section{
+    background-color: #ffc63d;
+    padding: 50px 40px;
+}
+
+.contact-us-form{
+    background-color: white;
+    padding: 35px 15px;
+}
+
+.contact-us-form h2{
+    font-size: 1.9rem;
+}
+.contact-us-form input{
+    padding: 15px 5px;
+    background-color: #e2dfdf;
+    border: none;
+    margin-bottom: 7px;
+}
+.form-group textarea{
+    border-radius: unset;
+    background-color: #e0e0e0;
+    border: none;
+}
+
+.contact-us-form button{
+    background-color: #000000;
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 14px 0;
+    font-size: 1.094rem;
+}
+
+    /* media-query design starts here */
+
+@media screen and (min-width: 576px) {
+
+    .contact-section{
+        background-color: #ffc63d;
+        padding: 60px 0px;
+    }
+    .contact-us-form h2{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contact-us-form h2{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .contact-section {
+        padding: 85px 0px;
+    }
+    .contact-us-form{
+        background-color: white;
+        padding: 45px;
+        max-width: 850px;
+        margin: 0 auto;
+    }
+}
+
+    /* ends-here */
+
+/* end-region */
+
+/* footer region design starts here */
+
+.footer{
+    background-color: #333333;
+    padding: 50px 25px 35px;
+}
+
+.footer span{
+    display: block;
+    margin-top: 80px;
+    font-size: 1rem;
+}
+
+.footer a{
+    color: #95ccc3;
+    font-size: 0.91rem;
+}
+/* end-region */
